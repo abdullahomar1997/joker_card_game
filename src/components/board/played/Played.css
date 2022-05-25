@@ -1,0 +1,30 @@
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card {
+  height: 175px;
+  width: 125px;
+}
+
+.card > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.overlap {
+  margin-top: -130%;
+}
+
+.leftlap {
+  margin-left: -4%;
+}
+
+/* .pass_card {
+  height: 175px;
+  width: 125px;
+} */

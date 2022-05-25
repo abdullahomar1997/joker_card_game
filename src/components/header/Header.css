@@ -1,0 +1,21 @@
+header {
+  /* text-align: center; */
+  background: var(--color-bg);
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 70px 70px auto 70px;
+  align-content: center;
+  height: 100%;
+  font-size: 30px;
+}
+
+.header__icon {
+  border: 0.1rem solid var(--color-primary-variant);
+  text-align: center;
+}
+
+.header__text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
