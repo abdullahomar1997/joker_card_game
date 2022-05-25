@@ -4,6 +4,8 @@ export default function assignCards(numPlayers, cards) {
 
     const cardIndexes = [];
 
+    //
+
     for (let i = 0; i < cards.length; ++i) {
         cardIndexes.push(i);
     }
