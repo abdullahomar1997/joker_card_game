@@ -5,7 +5,7 @@ import "./CpuDeck.css";
 const CpuDeck = ({ playerCards, players, setPlayers }) => {
   const OnCardPlayedHandler = (card) => {
     let temp = [...players];
-
+//
     temp = automate(0, temp, card);
 
     for (let i = 1; i < temp.length; ++i) {
